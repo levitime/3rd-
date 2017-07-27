@@ -26,7 +26,7 @@
     
     <%= yield %>
     
-      <%= render "share/nav" %>
+      <%= render "share/nav", location: "bottom" %>
      
      <% if session[:source] %>
      <p>your unloyal since you visited from <%= session[:source] %></p>
